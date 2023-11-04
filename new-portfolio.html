@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Home{
+        display: flex;
+        background-color: #ffffff;
+        justify-content: space-between;
+    }
+    header a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #000;
+        margin: 20px;
+        position: relative;
+        left: 190px;
+        bottom: 18px;
+        transition: .3s;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    /* .Home button{
+        position: relative;
+        left: 90px;
+        bottom: 18px;
+        width: 100px;
+        border: none;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 3px;
+        margin: 4px;
+        background: none;
+        transition: .3s;
+    } */
+    /* button:hover{
+        background-color: #000;
+        color: #fff;
+} */
+a:hover{
+    text-shadow: 1px 1px 2px rgb(255, 3, 3);
+}
+
+    .portfolio{
+    background-color: antiquewhite;
+    height: 400px;
+}
+.portfolio img{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left: 580px;
+    top: -160px;
+}
+h2{
+    position: relative;
+    left: 90px;
+    top: 90px;
+    line-height: 65px;
+    font-size: 40px;
+    color: black;
+}
+.about{
+    width: 100%;
+    height: 130px;
+   height: 400px;
+    background: url("https://www.eurus.com.tw/images/2021/08/27/blog6.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog {
+    display: flex;
+    background-color: #ffffff;
+    height: 300px;
+}
+.blog img{
+    width: 10%;
+    height: 10vh;
+    position: relative;
+    left: 95px;
+    top: 50px;
+}
+.blog p{
+    position: relative;
+    top: 90px;
+    right: 50px;
+    margin: 20px;
+}
+.contact-me{
+    background-color: #ffffff;
+    height: 200px;
+}
+.contact-img{
+    display: flex;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.contact-img h6{
+    position: relative;
+    top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.contact-img p{
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+.contact-img i{
+    position: relative;
+    left: 40px;
+    font-size: 25px;
+}
+h4{
+    font-size: 35px;
+    text-align: center;
+}
+.contact-me p{
+    font-size: 10px;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h5{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+.about button:hover{
+    box-shadow: 1px 1px 20px rgb(0, 0, 0); 
+    cursor: pointer;
+}
+</style>
+<body>
+    <div class="Home">
+        <header>
+            <img src="https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-letter-d-logo-template-vector-illustration-png-image_315130.jpg" style="width: 6%; position: relative; left: 80px; top: 3px; background-color: rgb(255, 255, 255);" alt="">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact-Me</a>
+            <!-- <button style="width: 80px;">Sign up</button>
+              <button style="width: 100px;"> <i class="fa-solid fa-lock"></i> Sign in</button> -->
+        </header>
+    </div>
+    <div class="portfolio">
+        <h2>HI, <span style="color: rgb(21, 118, 118);">I'M DILNAVOZ</span> <br> WELCOME TO MY <br> WORLD</h2>
+        <img src="o'zim.jpg" alt="">
+    </div>
+    <div class="about">
+        <h1 style="color: #000; position: relative; top: 35px; left: 25px; font-size: 50px;">So, who am I?</h1>
+        <p style="color: #868484; position: relative; top: 70px; left: 20px; line-height: 20px;">I'm your new social media bestie. My mission  is to help <br>  small and medium-sized businesses grow their audience <br> and brand recognition  through social media. My goal is <br> to help you understand the power of  social media and <br> create connections that go beyond the internet.</p>
+        <button style="color: #ffffff; background-color: #5f5f5f; width: 80px; border: none; height: 25px; position: relative; top: 120px; border-radius: 2px; left: 20px; font-size: 10px;">Contact me</button>
+    </div>
+    <h3 style="color: aqua; font-size: 28px; text-align: center; position: relative; right: 50px; top: 10px;">My Skills</h3>
+    <div class="blog">
+        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, mollitia, unde atque .</p>
+        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere harum, distinctio voluptatem .</p>
+        <img src="https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, molestiae nulla dolores, deserunt commodi incidunt .</p>
+    </div>
+    <div class="contact-me">
+        <h4>Contact-Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugiat? <br> Lorem ipsum dolor sit amet.</p>
+        <div class="contact-img">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>ADRESS</h6>
+            <p>Namangan Pop</p>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h6>PHONE</h6>
+            <p style="position: relative; left: -52px;">330433203</p>
+            <i class="fa-solid fa-sheet-plastic"></i>
+            <h6>EMAIL</h6>
+            <p>tursunovadilnavoz@email.com</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="col-1">
+            <h5 style="font-size: 18px;">USEFUL LINKS</h5>
+            <a href="#">About</a>
+            <a href="#">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT US</a>
+        </div>
+        <div class="col-2">
+            <h5 style="font-size: 18px;">NEWSLETTER</h5>
+            <form>
+                <input type="email" placeholder="YOUR EMAIL ADRESS" required>
+                <br>
+                <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h5 style="font-size: 18px;">CONTACT </h5>
+            <p>O'ZBEKISTON <br> Namangan viloyati, Pop tumani</p>
+            <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://t.me/iiits_diliw"><i class="fa-brands fa-telegram" style="color: #fff;"></i></a>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
